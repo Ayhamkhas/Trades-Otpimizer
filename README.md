@@ -33,6 +33,7 @@ Traditional trading bots often optimize for a single goal: profit.
 But in reality, traders care about **multiple things at once** — not just how much you make, but how consistently and how safely.
 
 This project tries to **evolve smarter, more balanced strategies** by treating trading like a multi-objective optimization problem.
+![Comparison_ParetoFront](https://github.com/user-attachments/assets/a663cbc4-0239-466b-90ae-7395992dc3a0)
 
 ---
 
