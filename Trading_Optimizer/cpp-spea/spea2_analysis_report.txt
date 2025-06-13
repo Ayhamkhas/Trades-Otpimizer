@@ -1,0 +1,58 @@
+SPEA2 Parameter Set Analysis Report
+==================================
+
+Overall Summary:
+--------------
+Best parameter set for ROI: Set 5 (Mean: 1083.53)
+Best parameter set for Risk: Set 2 (Mean: -0.39)
+Best parameter set for WinRate: Set 5 (Mean: 71.84)
+Best parameter set for Hypervolume: Set 1 (Mean: 170018.34)
+
+Statistical Significance:
+------------------------
+ROI: ANOVA p-value = 0.0091 (significant)
+Risk: ANOVA p-value = 0.3659 (not significant)
+WinRate: ANOVA p-value = 0.2090 (not significant)
+Hypervolume: ANOVA p-value = 0.6818 (not significant)
+
+Detailed Metrics by Parameter Set:
+--------------------------------
+Parameter Set 1:
+  ROI: Mean=792.71, Median=798.74, Std=150.47, Min=551.41, Max=974.46
+  Risk: Mean=-0.33, Median=-0.33, Std=0.06, Min=-0.41, Max=-0.25
+  WinRate: Mean=68.39, Median=68.56, Std=3.47, Min=59.35, Max=72.49
+  Hypervolume: Mean=170018.34, Median=20822.94, Std=479668.90, Min=-2643.17, Max=1534671.23
+
+Parameter Set 2:
+  ROI: Mean=957.22, Median=955.25, Std=193.30, Min=607.91, Max=1251.60
+  Risk: Mean=-0.39, Median=-0.40, Std=0.06, Min=-0.52, Max=-0.31
+  WinRate: Mean=70.81, Median=69.47, Std=4.03, Min=65.17, Max=78.00
+  Hypervolume: Mean=48926.19, Median=47039.30, Std=41549.87, Min=-2807.28, Max=138695.16
+
+Parameter Set 3:
+  ROI: Mean=969.28, Median=1030.72, Std=184.82, Min=529.85, Max=1135.38
+  Risk: Mean=-0.36, Median=-0.35, Std=0.05, Min=-0.43, Max=-0.31
+  WinRate: Mean=69.77, Median=69.15, Std=3.80, Min=63.91, Max=76.77
+  Hypervolume: Mean=56396.15, Median=52485.92, Std=34155.56, Min=6882.18, Max=137040.78
+
+Parameter Set 4:
+  ROI: Mean=1016.02, Median=1040.74, Std=168.46, Min=691.26, Max=1280.79
+  Risk: Mean=-0.36, Median=-0.38, Std=0.08, Min=-0.43, Max=-0.16
+  WinRate: Mean=68.79, Median=68.51, Std=2.23, Min=66.13, Max=74.28
+  Hypervolume: Mean=63035.95, Median=59523.91, Std=26086.60, Min=26119.22, Max=105398.33
+
+Parameter Set 5:
+  ROI: Mean=1083.53, Median=1109.13, Std=169.43, Min=853.22, Max=1412.70
+  Risk: Mean=-0.38, Median=-0.39, Std=0.08, Min=-0.46, Max=-0.16
+  WinRate: Mean=71.84, Median=70.39, Std=4.33, Min=67.38, Max=80.40
+  Hypervolume: Mean=50258.36, Median=47471.37, Std=17135.34, Min=24904.01, Max=70996.12
+
+Recommendations:
+---------------
+Overall best parameter set: Set 5
+This parameter set performs best in 2 out of 4 metrics.
+
+For maximizing ROI: Use Parameter Set 5
+For minimizing Risk: Use Parameter Set 2
+For maximizing Win Rate: Use Parameter Set 5
+For best Pareto front approximation (Hypervolume): Use Parameter Set 1

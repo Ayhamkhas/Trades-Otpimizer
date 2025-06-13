@@ -1,0 +1,79 @@
+===== NSGA-II Parameter Set Analysis Report =====
+
+Analysis Date: 22-May-2025 18:19:46
+
+1. SUMMARY OF RESULTS
+---------------------
+
+Parameter Set Performance Summary:
+
+ROI:
+  Param Set 1: Mean=802.42, Median=866.34, Std=222.49
+  Param Set 2: Mean=955.83, Median=943.22, Std=214.39
+  Param Set 3: Mean=946.37, Median=950.09, Std=183.58
+  Param Set 4: Mean=1010.96, Median=983.15, Std=164.50
+  Param Set 5: Mean=997.29, Median=1001.63, Std=132.13
+  Best Parameter Set: 4 (Mean=1010.96)
+
+Risk:
+  Param Set 1: Mean=-0.32, Median=-0.31, Std=0.06
+  Param Set 2: Mean=-0.34, Median=-0.34, Std=0.07
+  Param Set 3: Mean=-0.37, Median=-0.36, Std=0.05
+  Param Set 4: Mean=-0.37, Median=-0.38, Std=0.06
+  Param Set 5: Mean=-0.36, Median=-0.37, Std=0.07
+  Best Parameter Set: 1 (Mean=-0.32)
+
+WinRate:
+  Param Set 1: Mean=69.58, Median=70.06, Std=4.45
+  Param Set 2: Mean=69.88, Median=69.36, Std=5.02
+  Param Set 3: Mean=69.87, Median=69.59, Std=3.59
+  Param Set 4: Mean=70.50, Median=69.28, Std=3.27
+  Param Set 5: Mean=71.67, Median=72.09, Std=4.19
+  Best Parameter Set: 5 (Mean=71.67)
+
+Hypervolume:
+  Param Set 1: Mean=0.39, Median=0.24, Std=0.34
+  Param Set 2: Mean=0.35, Median=0.35, Std=0.10
+  Param Set 3: Mean=0.34, Median=0.34, Std=0.11
+  Param Set 4: Mean=0.33, Median=0.29, Std=0.09
+  Param Set 5: Mean=0.33, Median=0.35, Std=0.08
+  Best Parameter Set: 1 (Mean=0.39)
+
+
+2. STATISTICAL ANALYSIS
+------------------------
+
+ROI:
+  ANOVA p-value: 0.0051
+  Statistically significant differences found (p < 0.05)
+  Post-hoc analysis (Tukey-Kramer):
+    Set 1 vs Set 4: p=0.0055 (significant)
+    Set 1 vs Set 5: p=0.0114 (significant)
+
+Risk:
+  ANOVA p-value: 0.0459
+  Statistically significant differences found (p < 0.05)
+  Post-hoc analysis (Tukey-Kramer):
+    No significant pairwise differences found despite overall ANOVA significance.
+
+WinRate:
+  ANOVA p-value: 0.5209
+  No statistically significant differences found (p >= 0.05)
+
+Hypervolume:
+  ANOVA p-value: 0.7331
+  No statistically significant differences found (p >= 0.05)
+
+
+3. RECOMMENDATIONS
+-------------------
+
+Overall Recommendation:
+  Based on performance across all metrics, Parameter Set 1 is recommended.
+  This parameter set was the best performer in 2 out of 4 metrics.
+
+Metric-Specific Recommendations:
+  For optimizing ROI: Use Parameter Set 4 (Mean=1010.96)
+  For optimizing Risk: Use Parameter Set 1 (Mean=-0.32)
+  For optimizing WinRate: Use Parameter Set 5 (Mean=71.67)
+  For optimizing Hypervolume: Use Parameter Set 1 (Mean=0.39)
