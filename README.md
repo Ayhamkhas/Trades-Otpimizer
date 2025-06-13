@@ -41,7 +41,7 @@ This project tries to **evolve smarter, more balanced strategies** by treating t
 
 > NSGA-II significantly outperforms SPEA2 in hypervolume, suggesting better convergence and diversity.
 
-![Hypervolume Comparison](![Comparison_Hypervolume_boxplot](https://github.com/user-attachments/assets/04996a24-962e-4f80-80b0-12c469406da6))
+![Hypervolume Comparison](https://github.com/user-attachments/assets/04996a24-962e-4f80-80b0-12c469406da6)
 
 ---
 
@@ -49,7 +49,7 @@ This project tries to **evolve smarter, more balanced strategies** by treating t
 
 > NSGA-II converges more smoothly over 300 generations, while SPEA2 fluctuates and plateaus earlier.
 
-![Hypervolume Convergence](![Convergence_Hypervolume](https://github.com/user-attachments/assets/ebfc032e-e380-4e9b-9daa-b961225d6488)
+![Hypervolume Convergence](https://github.com/user-attachments/assets/ebfc032e-e380-4e9b-9daa-b961225d6488)
 )
 
 ---
@@ -59,7 +59,7 @@ This project tries to **evolve smarter, more balanced strategies** by treating t
 > Blue: NSGA-II | Red: SPEA2  
 > NSGA-II produced a broader front with stronger trade-offs across ROI, win rate, and risk.
 
-![Pareto Front Comparison](![Comparison_ParetoFront](https://github.com/user-attachments/assets/b78a9a4e-fb20-458f-8247-34696b21ec7c)
+![Pareto Front Comparison](https://github.com/user-attachments/assets/b78a9a4e-fb20-458f-8247-34696b21ec7c)
 )
 
 ---
@@ -68,7 +68,7 @@ This project tries to **evolve smarter, more balanced strategies** by treating t
 
 > Both algorithms reached similar win rate medians, but NSGA-II showed tighter bounds and fewer outliers.
 
-![WinRate Boxplot](![Comparison_WinRate_boxplot](https://github.com/user-attachments/assets/b5a31905-4aa0-4b8e-aed9-373ffb44bf57)
+![WinRate Boxplot](https://github.com/user-attachments/assets/b5a31905-4aa0-4b8e-aed9-373ffb44bf57)
 )
 
 ---
