@@ -5,7 +5,7 @@ _Evolving better trades — one generation at a time._
 
 ## 🧠 Overview
 
-This project is a **multi-objective trading strategy optimizer** built in **C++**, designed to evolve and evaluate moving average crossover strategies on historical crypto market data.
+This project is a **multi-objective trading strategy optimizer** built in **C++**, designed to evolve and evaluate moving average crossover strategies on Ethereum market data.
 
 Leveraging the power of **evolutionary algorithms** like **NSGA-II** and **SPEA2**, the optimizer searches for trading strategies that strike the best balance between **profitability**, **stability**, and **win rate** — because in trading, one metric never tells the whole story.
 
@@ -13,7 +13,7 @@ Leveraging the power of **evolutionary algorithms** like **NSGA-II** and **SPEA2
 
 ## ⚙️ What It Does
 
-- 📥 Loads real **OHLCV** data from CSV files
+- 📥 Loads real **OHLCV** data of Ethereum from CSV files
 - 📊 Represents each trading strategy as a combination of **short/long MA periods**
 - 🧬 Evolves populations using:
   - **NSGA-II** (Non-dominated Sorting Genetic Algorithm II)
